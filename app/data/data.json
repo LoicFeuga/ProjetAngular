@@ -1,0 +1,101 @@
+{
+	"menu" : [
+		"Profil",
+		"Education",
+		"Expérience",
+		"Portfolio",
+		"Contact"
+	],
+	"menu_lc" : [
+		"profil",
+		"education",
+		"experience",
+		"portfolio",
+		"contact"
+	],
+
+
+	"informations" : [
+		"Téléphone :  +336 69 91 75 61",
+		"Mail : loic.feuga@gmail.com"
+	],
+
+	"about_me":"Je suis Loïc Feuga un étudiant en Science Informatique à école Polytechnique de Nice-Sophia Antipolis",
+
+	"objectifs" : [
+		"site web",
+		"java"
+	],
+
+	"competences" : [
+		"site web",
+		"java",
+		"C",
+		"C++",
+		"C#",
+		"HTML",
+		"CSS"
+	],
+
+	"educations" : [
+		{
+			"nom":"Polytech' Nice-Sophia",
+			"specialite":"Science informatique",
+			"resumer":"Actuellement en première année, la formation est orientée Math et Informatique"
+		},
+		{
+			"nom":"Iut de Nice",
+			"specialite":"Informatique",
+			"resumer":"J'ai appris plusiurs langage de programmation comme C/C++/C# - Java - Assembleur - HTML/CSS/PHP JS"
+		},
+		{
+			"nom":"BAC STI",
+			"specialite":"Electrotechnique",
+			"resumer":"J'ai étudié les bases de l'électronique et de la mécanique"
+		}
+
+	],
+
+	"experiences" : [
+		{
+			"nom":"e-Media",
+			"role":"developper",
+			"resumer":"ajoiioaj"
+		},
+		{
+			"nom":"Auchan",
+			"role":"Casier",
+			"resumer":"Emploi étudiant"
+		},
+		{
+			"nom":"Mc Donald's",
+			"role":"Employer versatile",
+			"resumer":"Emploi étudiant"
+		}
+
+	],
+
+	"portfolio" : [
+		{
+			"nom":"Langue des signes",
+			"resumer":"Développement d'une appli java"
+		},
+		{
+			"nom":"CV Card",
+			"resumer":"Disponible au lien : http://laud.fr"
+		},
+		{
+			"nom":"LabyVint",
+			"resumer":"Application Java de labyrinthe"
+		},
+		{
+			"nom":"BDInfected",
+			"resumer":"Application android de communication pour le BDE"
+		}
+
+
+
+	],
+	"prenom":"Loïc",
+	"prenom_nom":"Loïc Feuga"
+}

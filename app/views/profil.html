@@ -1,0 +1,30 @@
+<div class="v-container-profil">
+
+	<div class="v-container-article-vertical">
+
+		<img class="v-image" src="images/loic.png"/>
+		<p class="v-article-titre">Résumé </p>
+		<div>{{data.about_me}}</div>
+			
+		<p class="v-article-titre">Informations</p>
+		<ul ng-repeat="each in data.informations">
+			<li>{{each}}</li>
+		</ul>
+
+	</div>
+
+	<div class="v-container-article-horizontal">
+		
+		<p class="v-article-titre">Mes objectifs </p>
+		<ul ng-repeat="each in data.objectifs">
+			<li>{{each}}</li>
+		</ul>
+
+		<p class="v-article-titre">Mes Compétences </p>
+		<ul ng-repeat="each in data.competences">
+			<li>{{each}}</li>
+		</ul>
+
+	</div>
+
+</div>

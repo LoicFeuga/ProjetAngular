@@ -1,0 +1,17 @@
+<div class="v-container-partie">
+	
+	<div ng-repeat="each in data.experiences" >
+
+		<div class="v-container-article-horizontal" ng-if="$index ==0"  ng-animate="'animate'">
+			<p class="v-article-titre">{{each.nom}} </p>		
+			<p>En tant que  {{each.role}}</p>
+			<p>{{each.resumer}}</p>
+		</div>
+
+		<div class="v-container-article-horizontal-demi" ng-if="$index != 0"  ng-animate="'animate'">
+			<p class="v-article-titre">{{each.nom}} </p>		
+			<p>En tant que  {{each.role}}</p> 
+			<p>{{each.resumer}}</p>
+		</div>
+	</div>
+</div>
